@@ -1,0 +1,40 @@
+.chart{
+    width: 100%;
+    height: 100%;
+}
+.temperatureImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.chartTop{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.temperatureTitle{
+    font-weight: 600;
+    font-size: 48px;
+    color: #9999FF;
+}
+.chartLocate{
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #666666;
+}
+.combobox{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.chartContainBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chartTemperatureTitle{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 38px;
+    color: #9999FF;
+}

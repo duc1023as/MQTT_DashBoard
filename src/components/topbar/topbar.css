@@ -1,0 +1,83 @@
+.topBar{
+    width: 100%;
+    height: 50px;
+    background-color: #0984e3;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.nav-menu {
+    background-color: #0984e3;
+    width: 250px;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: -100%;
+    transition: 850ms;
+}
+  
+.nav-menu.active {
+left: 0;
+transition: 350ms;
+}
+
+.topBarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topBarLeft{
+    display: flex;
+    align-items: center;
+}
+.topBarLeftIcon{
+    font-size: 28px !important;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.topBarTitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    cursor: pointer;
+}
+.topBarimg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.topBarRight{
+    display: flex;
+    align-items: center;
+}
+.topBarContainer{
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #555;
+}
+.topBarIcon{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
